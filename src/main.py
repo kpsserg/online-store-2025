@@ -30,3 +30,5 @@ fake_products = [
 @app.get("/products")
 def get_products():
     return {"products": fake_products}
+
+# TheEnd
